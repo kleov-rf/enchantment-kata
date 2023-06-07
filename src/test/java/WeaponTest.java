@@ -31,7 +31,7 @@ class WeaponTest {
     }
 
     @Test
-    void should_describe_weapon_stats(){
+    void should_describe_weapon_stats() {
         // arrange
         MagicBook magicBook = mock(MagicBook.class);
         String name = "Dagger of the Nooblet";
@@ -48,7 +48,7 @@ class WeaponTest {
     }
 
     @Test
-    void should_describe_weapon_stats_included_enchantment(){
+    void should_describe_weapon_stats_included_enchantment() {
         // arrange
         MagicBook magicBook = mock(MagicBook.class);
         String name = "Dagger of the Nooblet";

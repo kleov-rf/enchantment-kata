@@ -26,7 +26,7 @@ class InMemoryMagicBookTest {
     }
 
     @Test
-    void should_be_able_to_return_no_enchantment_when_luck_not_good(){
+    void should_be_able_to_return_no_enchantment_when_luck_not_good() {
         // arrange
         LuckControl luckControl = mock(LuckControl.class);
         InMemoryMagicBook inMemoryMagicBook = new InMemoryMagicBook(luckControl);

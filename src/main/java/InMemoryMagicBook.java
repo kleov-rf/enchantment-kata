@@ -18,7 +18,7 @@ public class InMemoryMagicBook implements MagicBook {
 
     @Override
     public Enchantment castSpell() {
-        if(luckControl.hasLostLuck()) return null;
+        if (luckControl.hasLostLuck()) return null;
 
         double newEnchantmentPosition = lookForNewSpell();
 

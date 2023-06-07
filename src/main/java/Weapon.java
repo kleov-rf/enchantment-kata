@@ -26,7 +26,7 @@ public class Weapon {
         String weaponSkills = String.join("\n", commonSkills);
         String stats = "%s\n%s".formatted(name, weaponSkills);
 
-        if(enchantment != null) {
+        if (enchantment != null) {
             String prefix = enchantment.prefix();
             String skill = enchantment.skill();
             stats = "%s %s\n%s\n%s".formatted(prefix, name, weaponSkills, skill);
